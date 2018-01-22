@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>Hello</h3>
+<p>こんにちは。{{ name }}さん。</p>
+<p>Raspberry Piの上空を撮影します。</p>
+<form action="/photo">
+    <button class="b1" type="submit" onclick="photo()">撮影</button>
+</form>
+{% endblock %}
